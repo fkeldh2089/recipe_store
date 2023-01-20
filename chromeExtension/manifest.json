@@ -1,5 +1,5 @@
 {
-  "name": "Hello, World!",
+  "name": "Recipe Storage",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
@@ -7,7 +7,7 @@
   },
   "permissions":["activeTab", "scripting", "desktopCapture", "identity", "identity.email", "tabs"],
   "action": {
-    "default_title": "My Bookmarks",
-    "default_icon": "logo.png"
+    "default_title": "Recipe Store",
+    "default_icon": "./assets/FoodStoreLogo_noback.png"
   }
 }

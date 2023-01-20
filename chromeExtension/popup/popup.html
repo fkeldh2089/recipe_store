@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="../node_modules/axios/dist/axios.min.js"></script>
+  <script src="./popup.js"></script>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div class="outerContainer"> 
+    <div class="container" id="beforeSave">
+      <div class="logoBox">
+        <img class="logoImg" src="../assets/FoodStoreLogo_noback.png" alt="err">
+      </div>
+      <label class="inputLabel" for="recipename">레시피 이름</label>
+      <input class="inputbox" type="text" id="recipename" name="recipename" required minlength="1" maxlength="8" size="10">
+      <label class="inputLabel" for="recipedesc">레시피 설명</label>
+      <input class="inputbox" type="text" id="recipedesc" name="recipedesc" size="200">
+      <input class="inputBtn" id="btn1" type="button" value="SAVE">
+    </div>
+    <div class="contaierFalse" id="afterSave">
+      <div class="logoBox2">
+        <img class="logoImg2" src="../assets/FoodStoreLogo_back.png" alt="err">
+      </div>
+      <div class="inform">저장되었습니다.</div>
+    </div>
+  </div>
+</body>
+</html>
